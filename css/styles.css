@@ -130,9 +130,6 @@ a {
         /* 120% */
         letter-spacing: 0.02em;
 }
-.portfolio-img-list {
-    background-color: #FFFFFF;
-}
 .img-text {
     color: var(--SLATE, #434455);
         /* Body */
@@ -156,6 +153,7 @@ a {
 }
 .portfolio-list-title {
     color: var(--NAVY-BLUE, #2E2F42);
+    background-color: #FFFFFF;
         /* Header 3 */
         font-size: 20px;
         font-weight: 500;
@@ -165,6 +163,7 @@ a {
 }
 .portfolio-list-text {
     color: var(--SLATE, #434455);
+    background-color: #FFFFFF;
         /* Body */
         font-size: 16px;
         font-weight: 400;
@@ -184,6 +183,9 @@ a {
         /* 116.667% */
         letter-spacing: 0.03em;
         text-transform: uppercase;
+}
+.accent-footer-studio {
+    color: #f4f4fd;
 }
 .footer-text {
     color: var(--CLOUD, #F4F4FD);
