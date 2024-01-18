@@ -84,8 +84,8 @@ a {
             background: var(--IRIS, #4D5AE5);
         cursor: pointer
 }
-.button:hover,
-.button-link:focus {
+.button: hover,
+.button: focus {
     background-color: #404BBF;
 }
 .item-title {
