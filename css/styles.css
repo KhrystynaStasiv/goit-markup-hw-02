@@ -56,12 +56,14 @@ a {
 .header-contacts .link:hover,
 .header-contacts .link:focus {
     color: #404bbf;
+    background-color: #404BBF;
 }
 .hero {
     background: var(--NAVY-BLUE, #2E2F42);
 }
 .hero-title {
     color: var(--WHITE, #FFF);
+    text-align: center;
         /* Header 1 */
         font-size: 56px;
         font-weight: 700;
@@ -109,6 +111,7 @@ a {
 }
 .team-title {
     color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
         /* Header 2 */
         font-size: 36px;
         font-weight: 700;
@@ -140,6 +143,7 @@ a {
 }
 .portfolio-title {
     color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
    
         /* Header 2 */
         font-size: 36px;
@@ -168,6 +172,9 @@ a {
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.02em;
+}
+.portfolio-list-title .portfolio-list-text {
+    background-color: #FFFFFF;
 }
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
