@@ -84,8 +84,10 @@ a {
             background: var(--IRIS, #4D5AE5);
         cursor: pointer
 }
-.button: hover,
-.button: focus {
+.button:hover {
+    background-color: #404BBF;
+}
+.button:focus {
     background-color: #404BBF;
 }
 .item-title {
@@ -105,6 +107,12 @@ a {
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.02em;
+}
+.team {
+    background-color: #F4F4FD;
+}
+.team-background {
+    background-color: #FFFFFF;
 }
 .team-title {
     color: var(--NAVY-BLUE, #2E2F42);
